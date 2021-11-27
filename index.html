@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Anurag Arnab</title>
+
+	<!--	<link href="css/bootstrap.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!--	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/academicons.css">
+
+	<!-- Favicon -->
+	<link rel="icon" href="icons/oxford.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="icons/oxford.ico" type="image/x-icon" />
+
+	<!-- Google analytics -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-83988063-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+					aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img alt="Oxford" src="images/oxford_logo.png" class="img-responsive" style="height: 46px">
+				</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<!-- <li><a href="index.html#research">Research</a></li> -->
+					<li><a href="index.html#publications">Publications</a></li>
+					<li><a href="index.html#talks">Talks</a></li>
+					<li><a href="https://www.robots.ox.ac.uk/~aarnab/assets/CV_Anurag_Arnab.pdf" target="_blank"
+							onclick="ga('send', 'event', 'File', 'download', this.href);">CV</a></li>
+				</ul>
+
+				<!--<ul class="nav navbar-nav navbar-right">
+					<li><a href="http://www.robots.ox.ac.uk/~tvg/">Torr Vision Group</a></li>-->
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="header" class="cover-image">
+		<div id="headerblob">
+			<img src="assets/anurag.jpeg" class="img-circle imgme">
+			<div id="headertext">
+				<div id="htname">Anurag Arnab</div>
+				<!-- <div id="htdesc">DPhil Student, University of Oxford</div> -->
+				<div id="htem">anurag _dot_ arnab _at_ gmail _dot_ com</div>
+				<div id="hticons">
+					<a alt="Google Scholar"
+						href="https://scholar.google.co.uk/citations?hl=en&authorid=2866407064294281542&user=l2FS2_IAAAAJ"
+						style="color: inherit;"><i class="ai ai-google-scholar-square hovericon"></i></a>
+					<a alt="Github" href="https://github.com/hmph" style="color: inherit;"><i
+							class="fa fa-github-square hovericon"></i></a>
+					<a alt="LinkedIn" href="https://www.linkedin.com/in/anuragarnab" style="color: inherit;"><i
+							class="fa fa-linkedin-square hovericon"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" style="padding-top: 390px; padding-left: 30px; padding-right: 30px;">
+		<div class="row row-eq-height">
+			<div class="col-12 ">
+				<p>
+					<!-- <strong>Bio: </strong>I am a Computer Vision DPhil (PhD) student in the <a
+						href="http://www.robots.ox.ac.uk/~tvg/">Torr Vision Group</a>
+					at Oxford University, and a member of <a href="http://www.linacre.ox.ac.uk/">Linacre College</a>. My
+					research interests
+					currently lie in the combination of Deep Learning and Probabilistic Graphical Models. I completed my
+					undergraduate degree
+					from the University of Cape Town in South Africa. -->
+
+					I am a Research Scientist at <a href="https://ai.google/research/"> Google</a> working primarily on transformers and video understanding. I completed my PhD
+					with <a href="http://www.torrvision.com/">Philip Torr</a> at the University of Oxford, where I focused on deep structured models for pixel-level scene understanding.
+					Prior to that, I completed my undergraduate degree at the University of Cape Town.
+				</p>
+				<!--
+				<hr>
+				<a name="research"></a>
+				<h1> Publications </h1> -->
+			</div>
+		</div>
+
+		<div class="row row-eq-height">
+			<div class="col-12">
+				<!-- <div class="jumbotron"> -->
+				<a name="publications"></a>
+				<div class="page-header">
+					<h2>Publications
+						<br>
+					</h2>
+				</div>
+
+				Up-to-date list on <a href="https://scholar.google.co.uk/citations?hl=en&authorid=2866407064294281542&user=l2FS2_IAAAAJ" target="_blank">Google Scholar</a>
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Description" src="projects/vivit/vivit.png" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title"> ViViT: A Video Vision Transformer </div>
+						<div class="authors"><b>Anurag Arnab*</b>, Mostafa Dehghani*, Georg Heigold, Chen Sun, Mario Lucic, Cordelia Schmid</div>
+						<div class="pubvenue"><i>International Conference on Computer Vision (ICCV),</i> 2021 </div>
+						<div class="links">
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/vivit/vivit.pdf">[PDF]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('arnab_vivit_2021',this)">[Bibtex]</a>
+						</div>
+
+						<div class="bibtex" , id="arnab_vivit_2021" style="display: none">
+							@inproceedings{arnab2021vivit,<br />
+								&nbsp;&nbsp;title={ViViT: A video vision transformer},<br />
+								&nbsp;&nbsp;author={Arnab, Anurag and Dehghani, Mostafa and Heigold, Georg and Sun, Chen and Lu{\v{c}}i{\'c}, Mario and Schmid, Cordelia},<br />
+								&nbsp;&nbsp;booktitle={ICCV},<br />
+								&nbsp;&nbsp;year={2021}<br />
+							  }<br />
+						</div>
+					</div>
+				</div><br>
+
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Description" src="projects/unified_structured_models/unified_structured_models.png" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title"> Unified Graph Structured Models for Video Understanding </div>
+						<div class="authors"><b>Anurag Arnab</b>, Chen Sun, Cordelia Schmid</div>
+						<div class="pubvenue"><i>International Conference on Computer Vision (ICCV),</i> 2021 </div>
+						<div class="links">
+							<a href="https://arxiv.org/pdf/arXiv:2103.15662">[PDF]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('arnab_unified_2021',this)">[Bibtex]</a>
+						</div>
+
+						<div class="bibtex" , id="arnab_unified_2021" style="display: none">
+							@inproceedings{arnab2021unified,<br />
+								&nbsp;&nbsp;title={Unified Graph Structured Models for Video Understanding},<br />
+								&nbsp;&nbsp;author={Arnab, Anurag and Sun, Chen and Schmid, Cordelia},<br />
+								&nbsp;&nbsp;booktitle={ICCV},<br />
+								&nbsp;&nbsp;year={2021}<br />
+							  }<br />
+						</div>
+					</div>
+				</div><br>
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Description" src="projects/compressive_visual_representations/compressive_visual_representations.png" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title"> Compressive Visual Representations </div>
+						<div class="authors"> Kuang-Huei Lee*, <b>Anurag Arnab*</b>,  Sergio Guadarrama, John Canny, Ian Fischer* </div>
+						<div class="pubvenue"><i>Conference on Neural Information Processing Systems (NeurIPS),</i> 2021 </div>
+						<div class="links">
+							<a href="https://arxiv.org/abs/2109.12909">[PDF]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('lee2021compressive',this)">[Bibtex]</a>
+						</div>
+
+						<div class="bibtex" , id="lee2021compressive" style="display: none">
+							@inproceedings{lee2021compressive,<br />
+								&nbsp;&nbsp;title={Compressive Visual Representations},<br />
+								&nbsp;&nbsp;author={Lee, Kuang-Huei and Arnab, Anurag and Guadarrama, Sergio and Canny, John and Fischer, Ian},<br />
+								&nbsp;&nbsp;booktitle={NeurIPS},<br />
+								&nbsp;&nbsp;year={2021}<br />
+							  }<br />
+						</div>
+					</div>
+				</div><br>
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Description" src="projects/token_learner/token_learner.jpg" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title"> TokenLearner: What Can 8 Learned Tokens Do for Images and Videos? </div>
+						<div class="authors"> Michael S. Ryoo, AJ Piergiovanni, <b>Anurag Arnab</b>,  Mostafa Dehghani,  Anelia Angelova </div>
+						<div class="pubvenue"><i>Conference on Neural Information Processing Systems (NeurIPS),</i> 2021 </div>
+						<div class="links">
+							<a href="https://arxiv.org/abs/2106.11297">[PDF]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('ryoo2021tokenlearner',this)">[Bibtex]</a>
+						</div>
+
+						<div class="bibtex" , id="ryoo2021tokenlearner" style="display: none">
+							@inproceedings{ryoo2021tokenlearner,<br />
+								&nbsp;&nbsp;title={TokenLearner: What Can 8 Learned Tokens Do for Images and Videos?},<br />
+								&nbsp;&nbsp;author={Ryoo, Michael S and Piergiovanni, AJ and Arnab, Anurag and Dehghani, Mostafa and Angelova, Anelia},<br />
+								&nbsp;&nbsp;booktitle={NeurIPS},<br />
+								&nbsp;&nbsp;year={2021}<br />
+							  }<br />
+						</div>
+					</div>
+				</div><br>
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Description" src="projects/mbt/mbt.jpg" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title"> Attention Bottlenecks for Multimodal Fusion </div>
+						<div class="authors"> Arsha Nagrani, Shan Yang, <b>Anurag Arnab</b>, Aren Jansen, Cordelia Schmid, Chen Sun
+						</div>
+						<div class="pubvenue"><i>Conference on Neural Information Processing Systems (NeurIPS),</i> 2021 </div>
+						<div class="links">
+							<a href="https://arxiv.org/abs/2107.00135">[PDF]</a>
+							<a href="https://a-nagrani.github.io/mbt.html">[Project]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('nagrani2021attention',this)">[Bibtex]</a>
+						</div>
+
+						<div class="bibtex" , id="nagrani2021attention" style="display: none">
+							@inproceedings{nagrani2021attention,<br />
+								&nbsp;&nbsp;title={Attention bottlenecks for multimodal fusion},<br />
+								&nbsp;&nbsp;author={Nagrani, Arsha and Yang, Shan and Arnab, Anurag and Jansen, Aren and Schmid, Cordelia and Sun, Chen},<br />
+								&nbsp;&nbsp;booktitle={NeurIPS},<br />
+								&nbsp;&nbsp;year={2021}<br />
+							  }<br />
+						</div>
+					</div>
+				</div><br>
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Description" src="projects/eccv_2020/uncertainty_mil.png" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title"> Uncertainty-Aware Weakly Supervised Action Detection from Untrimmed Videos </div>
+						<div class="authors"><b>Anurag Arnab</b>, Chen Sun, Arsha Nagrani, Cordelia Schmid</div>
+						<div class="pubvenue"><i> European Conference on Computer Vision (ECCV)</i>, 2020 </div>
+						<div class="links">
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/eccv_2020/uncertainty_mil_eccv_2020.pdf">[PDF]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/eccv_2020/uncertainty_mil_slides.pdf">[Slides] </a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('arnab_eccv_2020',this)">[Bibtex]</a>
+						</div>
+
+						<div class="bibtex" , id="arnab_eccv_2020" style="display: none">
+							@inproceedings{arnab_eccv_2020,<br />
+							&nbsp;&nbsp;author = {Li Zhang and Dan Xu and Anurag Arnab and Philip Torr},<br />
+							&nbsp;&nbsp;title = {Uncertainty-Aware Weakly Supervised Action Detection from Untrimmed Videos},<br />
+							&nbsp;&nbsp;booktitle = {European Conference on Computer Vision (ECCV)},<br />
+							&nbsp;&nbsp;year = {2020}<br />
+							}<br />
+						</div>
+					</div>
+				</div><br>
+
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Description" src="projects/cvpr_2020/dgmn.gif" class="img-responsive center-block" style="width:80%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title"> Dynamic Graph Message Passing Networks </div>
+						<div class="authors">Li Zhang, Dan Xu, <b>Anurag Arnab</b>, Philip H.S. Torr</div>
+						<div class="pubvenue"><i> Computer Vision and Pattern Recognition (CVPR)</i>, 2020 </div>
+						<div class="pubvenue"><b>Oral presentation</b></div>
+						<div class="links">
+							<a href="https://www.robots.ox.ac.uk/~lz/dgmn/">[Project Page]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2020/dgmn_cvpr2020.pdf">[PDF]</a>
+							<a href="https://github.com/lzrobots/dgmn">[Code]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2020/dgmn_talk.mp4">[Talk]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2020/dgmn_slides.pdf">[Slides]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('zhang_cvpr_2020',this)">[Bibtex]</a>
+						</div>
+
+						<div class="bibtex" , id="zhang_cvpr_2020" style="display: none">
+							@inproceedings{arnab_cvpr_2019,<br />
+							&nbsp;&nbsp;author = {Li Zhang and Dan Xu and Anurag Arnab and Philip Torr},<br />
+							&nbsp;&nbsp;title = {Dynamic Graph Message Passing Networks},<br />
+							&nbsp;&nbsp;booktitle = {Computer Vision and Pattern Recognition (CVPR)},<br />
+							&nbsp;&nbsp;year = {2020}<br />
+							}<br />
+						</div>
+					</div>
+				</div><br>
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Description" src="projects/neuripsw_2019/metavos.gif" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+					<div class="title">Meta-Learning Deep Visual Words for Fast Video Object Segmentation</div>
+					<div class="authors">Harkirat Singh Behl, Mohammad Najafi, <b>Anurag Arnab</b>, Philip H.S. Torr.</div>
+					<div class="pubvenue"><i> Intelligent Robots and Systems (IROS)</i>, 2020</div>
+					<div class="pubvenue"><i> NeurIPS Machine Learning for Autonomous Driving Workshop</i>, 2019</div>
+					<div class="links">
+						<a href="https://harkiratbehl.github.io/projects/metavos/metavos.html">[Project page] </a>
+						<a href="https://www.robots.ox.ac.uk/~aarnab/projects/neuripsw_2019/metavos_2019.pdf">[PDF] </a>
+						<a href="https://github.com/harkiratbehl/MetaVOS">[Code]</a>
+						<a href="https://www.robots.ox.ac.uk/~aarnab/projects/neuripsw_2019/metavos_neuripsw_2019.pptx">[Slides]</a>
+						<a href="https://www.youtube.com/watch?v=5Ubyv04FKng&feature=emb_logo">[Talk] </a>
+						<a href="javascript:function(){return false};"
+							onclick="return toggle('behl_iros_2020',this)">[Bibtex]</a>
+					</div>
+
+					<div class="bibtex" , id="behl_iros_2020" style="display: none">
+						@inproceedings{behl_iros_2020,<br />
+						&nbsp;&nbsp;author = {Harkirat Singh Behl, Mohammad Najafi, Anurag Arnab, Philip H.S.
+						Torr},<br />
+						&nbsp;&nbsp;title = {Meta-Learning Deep Visual Words for Fast Video Object
+						Segmentation},<br />
+						&nbsp;&nbsp;booktitle = {IROS},<br />
+						&nbsp;&nbsp;year = {2020}<br />
+						}<br />
+					</div>
+				</div>
+				</div><br>
+
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Exploiting Temporal Context for 3D Human Pose Estimation In The Wild" src="projects/cvpr_2019/example.gif" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title"> Exploiting Temporal Context for 3D Human Pose Estimation In The Wild </div>
+						<div class="authors"><b>Anurag Arnab*</b>, Carl Doersch*, Andrew Zisserman</div>
+						<div class="pubvenue"><i> Computer Vision and Pattern Recognition (CVPR)</i>, 2019 </div>
+						<div class="links">
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2019/temporal_3d_pose_CVPR_2019.pdf">[PDF]</a>
+							<a href="https://github.com/deepmind/Temporal-3D-Pose-Kinetics">[Code] </a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2019/temporal_3d_pose.pptx">[Slides] </a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2019/temporal_3d_pose_poster.pdf">[Poster] </a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('arnab_cvpr_2019',this)">[Bibtex]</a>
+						</div>
+
+						<div class="bibtex" , id="arnab_cvpr_2019" style="display: none">
+							@inproceedings{arnab_cvpr_2019,<br />
+							&nbsp;&nbsp;author = {Anurag Arnab and Carl Doersch and Andrew Zisserman},<br />
+							&nbsp;&nbsp;title = {Exploiting temporal context for 3D human pose estimation in the
+							wild},<br />
+							&nbsp;&nbsp;booktitle = {Computer Vision and Pattern Recognition (CVPR)},<br />
+							&nbsp;&nbsp;year = {2019}<br />
+							}<br />
+						</div>
+					</div>
+				</div><br>
+
+				<div class="row top-buffer">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Description" src="projects/bmvc_2019/dgcnet.png" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">Dual Graph Convolutional Network for Semantic Segmentation</div>
+						<div class="authors">Li Zhang*, Xiangtai Li*, <b>Anurag Arnab</b>, Kuiyuan Yang, Yunhai Tong, Philip
+							H.S. Torr </div>
+						<div class="pubvenue"><i> British Machine Vision Conference (BMVC)</i>, 2019 </div>
+						<div class="links">
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/bmvc_2019/dgcnet_2019.pdf">[PDF] </a>
+							<a href="https://github.com/lxtGH/GALD-DGCNet">[Code] </a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('zhang_bmvc_2019',this)">[Bibtex]</a>
+						</div>
+
+						<div class="bibtex" , id="zhang_bmvc_2019" style="display: none">
+							@inproceedings{arnab_cvpr_2019,<br />
+							&nbsp;&nbsp;author = {Li Zhang and Xiangtai Li and Anurag Arnab and Kuiyuan Yang and Yunhai
+							Tong and Philip H.S. Torr},<br />
+							&nbsp;&nbsp;title = {Dual Graph Convolutional Network for Semantic Segmentation},<br />
+							&nbsp;&nbsp;booktitle = {British Machine Vision Conference (BMVC)},<br />
+							&nbsp;&nbsp;year = {2019}<br />
+							}<br />
+						</div>
+					</div>
+				</div><br>
+
+				<div class="row top-buffer">
+					<div class="col-xs-12 col-md-3">
+						<a href="weak_panoptic.html"><img alt="Weakly- and Semi-Supervised Panoptic Segmentation" src="projects/eccv_2018/diagram.png" class="img-responsive center-block" style="width:100%"/></a>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">Weakly- and Semi-Supervised Panoptic Segmentation</div>
+						<div class="authors">Qizhu Li*, <b>Anurag Arnab*</b>, Philip H.S Torr </div>
+						<div class="pubvenue"><i> European Conference on Computer Vision (ECCV)</i>, 2018 </div>
+						<div class="links">
+							<a href="weak_panoptic.html">[Project Page]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/eccv_2018/Weakly_Sup_Panoptic_Seg_ECCV_2018.pdf">[PDF] </a>
+							<a href="https://github.com/qizhuli/Weakly-Supervised-Panoptic-Segmentation">[Code] </a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('li_eccv_2018',this)">[Bibtex]</a>
+						</div>
+		
+						<div class="bibtex" , id="li_eccv_2018" style="display: none">
+							@inproceedings{li_eccv_2018,<br />
+							&nbsp;&nbsp;author = {Qizhu Li and Anurag Arnab and Philip H. S. Torr},<br />
+							&nbsp;&nbsp;title = {Weakly- and Semi-Supervised Panoptic Segmentation},<br />
+							&nbsp;&nbsp;booktitle = {European Conference on Computer Vision (ECCV)},<br />
+							&nbsp;&nbsp;year = {2018}<br />
+							}<br />
+						</div>
+					</div>
+				</div><br>
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<a href="adversarial_robustness.html"><img alt="On the Robustness of Semantic Segmentation Models to Adversarial Attacks" src="projects/cvpr_2018/frankfurt_000000_000294_dilated_split_blend.png" class="img-responsive center-block" style="width:100%"/></a>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">On the Robustness of Semantic Segmentation Models to Adversarial Attacks</div>
+						<div class="authors"><b>Anurag Arnab</b>, Ondrej Miksik, Philip H.S Torr </div>
+						<div class="pubvenue">
+							<i>Computer Vision and Pattern Recognition (CVPR)</i>, 2018 <br>
+							<i>Pattern Analysis and Machine Intelligence (PAMI)</i>, 2019
+						</div>
+						<div class="links">
+							<a href="adversarial_robustness.html">[Project Page]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2018/Arnab_CVPR_2018.pdf">[PDF (Conference)]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2018/On_the_Robustness_of_Semantic_Segmentation_Models_to_Adversarial_Attacks_PAMI_2019.pdf">[PDF (Journal)]</a>
+							<a href="https://github.com/hmph/adversarial-attacks">[Code]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2018/Poster_CVPR_2018.pdf">[Poster]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('arnab_cvpr_2018',this)">[Bibtex]</a>
+						</div>
+						<div class="bibtex" , id="arnab_cvpr_2018" style="display: none">
+							@inproceedings{arnab_cvpr_2018,<br />
+							&nbsp;&nbsp;author = {Anurag Arnab and Ondrej Miksik and Philip H. S. Torr},<br />
+							&nbsp;&nbsp;title = {On the Robustness of Semantic Segmentation Models to Adversarial
+							Attacks},<br />
+							&nbsp;&nbsp;booktitle = {Computer Vision and Pattern Recognition (CVPR)},<br />
+							&nbsp;&nbsp;year = {2018}<br />
+							}<br />
+						</div>
+					</div>	
+				</div><br>
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Conditional Random Fields Meet Deep Neural Networks for Semantic Segmentation" src="projects/ieee_spm_2018/crf_overview_4.png" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">Conditional Random Fields Meet Deep Neural Networks for Semantic Segmentation</div>
+						<div class="authors"><b>Anurag Arnab</b>, Shuai Zheng, Sadeep Jayasumana, Bernardino Romera-Paredes, Måns Larsson, Alexander Kirillov, Bogdan Savchynskyy, Carsten Rother, Fredrik Kahl, Philip H.S. Torr</div>
+						<div class="pubvenue"><i>IEEE Signal Processing Magazine</i>,
+							2018</div>
+						<div class="links">
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/ieee_spm_2018/Arnab_SPM_2018.pdf">[PDF]</a>
+							<a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8254255">[Publisher]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('arnab_spm_2018',this)">[Bibtex]</a>
+						</div>
+						<div class="bibtex" , id="arnab_spm_2018" style="display: none">
+							@article{Arnab_IEEESPM_2018,<br />
+							&nbsp;&nbsp;author={A. Arnab and S. Zheng and S. Jayasumana and B. Romera-Paredes and M.
+							Larsson and A.
+							Kirillov and B. Savchynskyy and C. Rother and F. Kahl and P. H. S. Torr},<br />
+							&nbsp;&nbsp;journal={IEEE Signal Processing Magazine},<br />
+							&nbsp;&nbsp;title={Conditional Random Fields Meet Deep Neural Networks for Semantic
+							Segmentation:
+							Combining Probabilistic Graphical Models with Deep Learning for Structured
+							Prediction},<br />
+							&nbsp;&nbsp;year={2018},<br />
+							&nbsp;&nbsp;volume={35},<br />
+							&nbsp;&nbsp;number={1},<br />
+							&nbsp;&nbsp;pages={37-52},<br />
+							&nbsp;&nbsp;doi={10.1109/MSP.2017.2762355},<br />
+							&nbsp;&nbsp;ISSN={1053-5888},<br />
+							&nbsp;&nbsp;month={Jan}<br />
+							}
+						</div>
+					</div>
+				</div><br>
+
+		
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="Revisiting Deep Structured Models for Pixel-Level Labeling with Gradient-Based Inference" src="projects/emmcvpr_2017/crf_grad.png" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">Revisiting Deep Structured Models for Pixel-Level Labeling with Gradient-Based Inference</div>
+						<div class="authors">Måns Larsson, <b>Anurag Arnab</b>, Shuai Zheng, Philip H.S. Torr, Fredrik Kahl.</div>
+						<div class="pubvenue"><i>SIAM Journal on Imaging Sciences</i>, 2018</div>
+						<div class="links">
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/siam_2018/larsson_siam_2018.pdf">[PDF]</a>
+							<a href="https://epubs.siam.org/doi/abs/10.1137/18M1167267">[Publisher]</a>
+							<a href="https://github.com/maunzzz/caffe-crfgd">[Code]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('larsson_siam_2018',this)">[Bibtex]</a>
+						</div>
+						<div class="bibtex" , id="larsson_siam_2018" style="display: none">
+							@inproceedings{larsson_siam_2018,<br />
+							&nbsp;&nbsp;author = {Mans Larsson and Anurag Arnab and Shuai Zheng and Philip H.S.
+							Torr and Fredrik Kahl},<br />
+							&nbsp;&nbsp;title = {Revisiting Deep Structured Models for Pixel-Level Labeling with
+							Gradient-Based
+							Inference},<br />
+							&nbsp;&nbsp;journal = {SIAM Journal on Imaging Sciences},<br />
+							&nbsp;&nbsp;year = {2018}<br />
+							&nbsp;&nbsp;volume = {11},<br />
+							&nbsp;&nbsp;number = {4},<br />
+							&nbsp;&nbsp;pages = {2610-2628},<br />
+							&nbsp;&nbsp;doi = {10.1137/18M1167267},<br />
+							&nbsp;&nbsp;URL = {https://doi.org/10.1137/18M1167267}<br />
+							}<br />
+						</div>
+					</div>
+				</div><br>
+			
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<a href="instances_dynamic_network.html"><img alt="Pixelwise Instance Segmentation with a Dynamically Instantiated Network" src="projects/cvpr_2017/cityscapes_example.png" class="img-responsive center-block" style="width:100%"
+							/></a>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">Pixelwise Instance Segmentation with a Dynamically Instantiated Network</div>
+						<div class="authors"><b>Anurag Arnab</b>, Philip H.S. Torr</div>
+						<div class="pubvenue"><i>Computer Vision and Pattern Recognition (CVPR)</i>, 2017</div>
+						<div class="links">
+							<a href="instances_dynamic_network.html">[Project Page]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2017/Arnab_CVPR_2017.pdf">[PDF]</a>
+							<a href="https://github.com/hmph/dynamically-instantiated-network">[Code]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2017/Instances_CVPR_slides.pptx">[Slides]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2017/Poster_CVPR_2017.pdf">[Poster]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('arnab_cvpr_2017',this)">[Bibtex]</a>
+						</div>
+						<div class="bibtex" , id="arnab_cvpr_2017" style="display: none">
+							@inproceedings{arnab_cvpr_2017,<br />
+							&nbsp;&nbsp;author = {Anurag Arnab and Philip H. S. Torr},<br />
+							&nbsp;&nbsp;title = {Pixelwise Instance Segmentation with a Dynamically Instantiated
+							Network},<br />
+							&nbsp;&nbsp;booktitle = {Computer Vision and Pattern Recognition (CVPR)},<br />
+							&nbsp;&nbsp;year = {2017}<br />
+							}<br />
+						</div>
+					</div>	
+				</div><br>
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<a href="hihp.html"><img alt="Holistic, Instance-level Human Parsing" src="projects/bmvc_2017/thumbnail_hihp.png" class="img-responsive center-block" style="width:80%"
+							/></a>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">Holistic, Instance-level Human Parsing</div>
+						<div class="authors">Qizhu Li*, <b>Anurag Arnab*</b>, Philip H.S Torr</div>
+						<div class="pubvenue"><i>British Machine Vision Conference (BMVC)</i>, 2017</div>
+						<div class="links">
+							<a href="hihp.html">[Project Page]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/bmvc_2017/Li_BMVC_2017.pdf">[PDF]</a>
+							<a href="https://github.com/torrvision/caffe-tvg">[Code]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/bmvc_2017/Slides_BMVC_2017.pdf">[Slides]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/bmvc_2017/Poster_BMVC_2017.pdf">[Poster]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('li_bmvc_2017',this)">[Bibtex]</a>
+						</div>
+						<div class="bibtex" , id="li_bmvc_2017" style="display: none">
+							@inproceedings{li_bmvc_2017,<br />
+							&nbsp;&nbsp;author = {Qizhu Li and Anurag Arnab and Philip H. S. Torr},<br />
+							&nbsp;&nbsp;title = {Holistic, Instance-level Human Parsing},<br />
+							&nbsp;&nbsp;booktitle = {British Machine Vision Conference (BMVC)},<br />
+							&nbsp;&nbsp;year = {2017}<br />
+							}<br />
+						</div>		
+					</div>
+				</div><br>
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<img alt="A Projected Gradient Descent Method for CRF Inference allowing End-To-End Training of Arbitrary Pairwise	Potentials" src="projects/emmcvpr_2017/crf_grad.png" class="img-responsive center-block" style="width:100%"/>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">A Projected Gradient Descent Method for CRF Inference allowing End-To-End Training of Arbitrary Pairwise	Potentials</div>
+						<div class="authors">Måns Larsson, <b>Anurag Arnab</b>, Fredrik Kahl, Shuai Zheng, Philip H.S. Torr</div>
+						<div class="pubvenue"><i>Energy Minimization Methods in Computer Vision and Pattern Recognition (EMMCVPR)</i>, 2017</div>
+						<div class="links">
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/emmcvpr_2017/Larsson_EMMCVPR_2017.pdf">[PDF]</a>
+							<a href="https://github.com/maunzzz/caffe-crfgd">[Code]</a>
+							<a href="javascript:function(){return false};"onclick="return toggle('larsson_emmcvpr_2017',this)">[Bibtex]</a>
+						</div>
+						<div class="bibtex" , id="larsson_emmcvpr_2017" style="display: none">
+							@inproceedings{larsson_emmcvpr_2017,<br />
+							&nbsp;&nbsp;author = {Mans Larsson and Anurag Arnab and Fredrik Kahl and Shuai Zheng and
+							Philip H.S.
+							Torr},<br />
+							&nbsp;&nbsp;title = {A Projected Gradient Descent Method for CRF Inference allowing
+							End-To-End
+							Training of Arbitrary Pairwise Potentials},<br />
+							&nbsp;&nbsp;booktitle = {Energy Minimization Methods in Computer Vision and Pattern
+							Recognition
+							(EMMCVPR)},<br />
+							&nbsp;&nbsp;year = {2017}<br />
+							}<br />
+						</div>		
+					</div>
+				</div><br>
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<a href="ho_crf_cnn.html"><img alt="Higher Order Conditional Random Fields in Deep Neural Networks" src="images/eccv_2016_thumbnail.png" class="img-responsive center-block"
+								style="width: 80%" /></a>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">Higher Order Conditional Random Fields in Deep Neural Networks</div>
+						<div class="authors"><b>Anurag Arnab</b>, Sadeep Jayasumana, Shuai Zheng, Philip H.S Torr</div>
+						<div class="pubvenue"><i>European Conference on Computer Vision (ECCV)</i>, 2016</div>
+						<div class="links">
+							<a href="ho_crf_cnn.html">[Project Page]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/eccv_2016/Higher_Order_CRF_CNN.pdf">[PDF]</a>
+							<a href="https://github.com/torrvision/caffe-tvg">[Code]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/eccv_2016/Higher_Order_CNN_Instance.pptx">[Slides]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/eccv_2016/Higher_Order_poster.pdf">[Poster]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('arnab_eccv_2016',this)">[Bibtex]</a>		
+						</div>
+						<div class="bibtex" , id="arnab_eccv_2016" style="display: none">
+							@inproceedings{arnab_eccv_2016,<br />
+							&nbsp;&nbsp;author = {Anurag Arnab and Sadeep Jayasumana and Shuai Zheng and Philip H. S.
+							Torr},<br />
+							&nbsp;&nbsp;title = {Higher Order Conditional Random Fields in Deep Neural Networks},<br />
+							&nbsp;&nbsp;booktitle = {European Conference on Computer Vision (ECCV)},<br />
+							&nbsp;&nbsp;year = {2016}<br />
+							}<br />
+						</div>		
+					</div>
+				</div><br>
+		
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<a href="instances.html"><img alt="Bottom-up Instance Segmentation" src="images/bmvc_2016_thumbnail.png" class="img-responsive center-block" style="width:80%"
+							/></a>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">Bottom-up Instance Segmentation using Deep Higher-Order CRFs</div>
+						<div class="authors"><b>Anurag Arnab</b>, Philip H.S Torr.</div>
+						<div class="pubvenue"><i>British Machine Vision Conference (BMVC)</i>, 2016</div>
+						<div class="links">
+							<a href="instances.html">[Project Page]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/bmvc_2016/InstanceSegmentation.pdf">[PDF]</a>
+							<a href="https://github.com/torrvision/caffe-tvg">[Code]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/bmvc_2016/Instance_Segmentation_poster.pdf">[Poster]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('arnab_bmvc_2016',this)">[Bibtex]</a>		
+						</div>
+						<div class="bibtex" , id="arnab_bmvc_2016" style="display: none">
+							@inproceedings{arnab_bmvc_2016,<br />
+							&nbsp;&nbsp;author = {Anurag Arnab and Philip H. S. Torr},<br />
+							&nbsp;&nbsp;title = {Bottom-up Instance Segmentation using Deep Higher-Order CRFs},<br />
+							&nbsp;&nbsp;booktitle = {British Machine Vision Conference (BMVC},<br />
+							&nbsp;&nbsp;year = {2016}<br />
+							}<br />
+						</div>		
+					</div>
+				</div><br>
+				
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<a href="bmvc_2015.html"><img alt="Audiovisual Semantic Segmentation" src="images/bmvc_2015_thumbnail.png" class="img-responsive center-block"
+							style="width: 80%"/>
+						</a>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">Joint Object-Material Category Segmentation from Audio-Visual Cues</div>
+						<div class="authors"><b>Anurag Arnab</b>, Michael Sapienza, Stuart Golodetz, Julien Valentin, Ondrej Miksik, Shahram Izadi, Philip H.S. Torr.</div>
+						<div class="pubvenue"><i>British Machine Vision
+							Conference (BMVC)</i>, 2015</div>
+						<div class="links">
+							<a href="bmvc_2015.html">[Project Page]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/bmvc_2015/Arnab_BMVC_2015.pdf">[PDF]</a>
+							<a href="http://bit.ly/2maq4vn">[Dataset]</a>
+							<a href="https://www.robots.ox.ac.uk/~aarnab/projects/bmvc_2015/Audiovisual_Semantic_Segmentation.pptx">[Slides]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('arnab_bmvc_2015',this)">[Bibtex]</a>		
+						</div>
+						<div class="bibtex" , id="arnab_bmvc_2015" style="display: none">
+							@inproceedings{arnab_bmvc_2016,<br />
+							&nbsp;&nbsp;author = {Anurag Arnab and Michael Sapienza and Stuart Golodetz and Julien
+							Valentin and
+							Ondrej Miksik and Shahram Izadi and Philip H.S. Torr.},<br />
+							&nbsp;&nbsp;title = {Joint Object-Material Category Segmentation from Audio-Visual
+							Cues},<br />
+							&nbsp;&nbsp;booktitle = {British Machine Vision Conference (BMVC},<br />
+							&nbsp;&nbsp;year = {2015}<br />
+							}<br />
+						</div>		
+					</div>
+				</div><br>
+		
+				<!--
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<a href="http://www.semantic-paint.com/"><img alt="Semantic Paint" src="images/semantic_paint_thumbnail.png" class="img-responsive center-block" style="width: 100%"></a>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">SemanticPaint: Interactive Segmentation and Learning of 3D Worlds</div>
+						<div class="authors"> Stuart Golodetz, Michael Sapienza, Julien Valentin, Vibhav Vineet, Ming-Ming Cheng, Victor Adrian Prisacariu, Olaf Kaehler, Carl Yuheng Ren, <b>Anurag Arnab</b>, Stephen Hicks, David W. Murray, Shahram Izadi, Philip H.S. Torr.
+						</div>
+						<div class="pubvenue"><i>ACM SIGGRAPH 2015 Emerging Technologies</i>, 2015 (live demo)</div>
+						<div class="links">
+							<a href="http://www.semantic-paint.com/">[Project Page]</a>
+							<a href="http://www.robots.ox.ac.uk/~tvg/publications/2015/a22-golodetz.pdf">[PDF]</a>
+							<a href="https://github.com/torrvision/spaint">[Code]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('golodetz_siggraph_2015',this)">[Bibtex]</a>		
+						</div>
+						<div class="bibtex" , id="golodetz_siggraph_2015" style="display: none">
+							@inproceedings{golodetz2015semanticpaint,<br />
+							&nbsp;&nbsp;title={Semanticpaint: interactive segmentation and learning of 3d worlds},<br />
+							&nbsp;&nbsp;author={Golodetz, Stuart and Sapienza, Michael and Valentin, Julien PC and
+							Vineet, Vibhav
+							and Cheng, Ming-Ming and Prisacariu, Victor A and K{\"a}hler, Olaf and Ren, Carl Yuheng and
+							Arnab,
+							Anurag and Hicks, Stephen L Murray, David W and Izadi, Shahram and Torr, Philip},<br />
+							&nbsp;&nbsp;booktitle={ACM SIGGRAPH 2015 Emerging Technologies},<br />
+							&nbsp;&nbsp;pages={22},<br />
+							&nbsp;&nbsp;year={2015},<br />
+							&nbsp;&nbsp;organization={ACM}<br />
+							}
+							<br />
+						</div>
+					</div>
+				</div>
+				-->
+
+				<div class="row top-buffer vertical-align">
+					<div class="col-xs-12 col-md-3">
+						<a href="http://www.semantic-paint.com/"><img alt="Semantic Paint" src="images/semantic_paint_thumbnail.png" class="img-responsive center-block" style="width: 80%"></a>
+					</div>
+					<div class="col-xs-12 col-md-9">
+						<div class="title">SemanticPaint: A Framework for the Interactive Segmentation of 3D Scenes</div>
+						<div class="authors"> Stuart Golodetz, Michael Sapienza, Julien Valentin, Vibhav Vineet, Ming-Ming Cheng, <b>Anurag Arnab</b>, Victor Adrian Prisacariu, Olaf Kaehler, Carl Yuheng Ren, David W. Murray, Shahram Izadi, Philip H.S. Torr
+						</div>
+						<div class="pubvenue"><i>ACM SIGGRAPH 2015 Emerging Technologies</i>, 2015 (live demo)
+						<div class="pubvenue"><i>arXiv 1510.03727</i>, 2015</div>
+						</div>
+						<div class="links">
+							<a href="https://www.robots.ox.ac.uk/~tvg/projects/SemanticPaint/index.php/">[Project Page]</a>
+							<a href="https://arxiv.org/pdf/1510.03727v1.pdf">[PDF]</a>
+							<a href="https://github.com/torrvision/spaint">[Code]</a>
+							<a href="javascript:function(){return false};"
+								onclick="return toggle('golodetz_arxiv_2015',this)">[Bibtex]</a>		
+						</div>
+						<div class="bibtex" , id="golodetz_arxiv_2015" style="display: none">
+							@inproceedings{golodetz_arxiv_2015,<br />
+							&nbsp;&nbsp;title={SemanticPaint: A Framework for the Interactive Segmentation of 3D
+							Scenes},<br />
+							&nbsp;&nbsp;author={Golodetz, Stuart and Sapienza, Michael and Valentin, Julien PC and
+							Vineet, Vibhav
+							and Cheng, Ming-Ming and Arnab, Anurag and Prisacariu, Victor A and K{\"a}hler, Olaf and
+							Ren, Carl
+							Yuheng and Murray, David W and Izadi, Shahram and Torr, Philip},<br />
+							&nbsp;&nbsp;booktitle={arXiv preprint arXiv:1510.03727},<br />
+							&nbsp;&nbsp;year={2015}<br />
+							}<br />
+						</div>
+					</div>
+				</div>
+
+			<a name="publications"></a>
+			<div class="page-header">
+				<h2>Thesis <br> </h2>
+			</div>
+	
+			<div class="row top-buffer">
+				<div class="col-xs-12 col-md-3">
+					<img alt="Description" src="projects/thesis/oxford_beltcrest_logo.png" class="img-responsive center-block" style="width:30%"/>
+				</div>
+				<div class="col-xs-12 col-md-9">
+				<div class="title">Pixel-level Scene Understanding with Deep Structured Models</div>
+				<div class="authors">Anurag Arnab</div>
+				<div class="pubvenue"><i>University of Oxford </i> 2019</div>
+				<div class="links">
+					<a href="https://www.robots.ox.ac.uk/~aarnab/projects/thesis/Thesis_Anurag_Arnab.pdf">[PDF]</a>
+					<a href="javascript:function(){return false};"
+						onclick="return toggle('arnab_thesis_2019',this)">[Bibtex]</a>
+				</div>
+				
+				<div class="bibtex" , id="arnab_thesis_2019" style="display: none">
+					@phdthesis{arnab_phd_2019,<br />
+					&nbsp;&nbsp;author = {Anurag Arnab},<br />
+					&nbsp;&nbsp;title = {Pixel-level Scene Understanding with Deep Structured Models},<br />
+					&nbsp;&nbsp;school = {University of Oxford},<br />
+					&nbsp;&nbsp;year = {2019}<br />
+					}<br />
+				</div>
+
+				</div>
+			</div>
+
+
+			</div> <!-- end row -->
+			<div class="col-12" style="border-right: 1px solid #EEE;">
+				<div class="page-header">
+					<a name="talks"></a>
+					<h2> Talks and tutorials </h2>
+				</div>
+
+				<p>
+					<div class="title">Video Understanding with Imperfect Data</div>
+					Invited talk at <a target="_blank" href="https://l2id.github.io">Learning from Limited and Imperfect Data (L2ID) workshop</a> at CVPR. June 2021. <br>
+					<a target="_blank" href="https://www.robots.ox.ac.uk/~aarnab/talks/video_understanding_imperfect_data_cvpr2021_l2di_workshop.pdf">[Slides]</a>					
+				</p>
+
+
+				<p>
+					<div class="title">Transformers: A Review, and Recent Developments in Vision</div>
+					Invited lecture at <a target="_blank" href="https://ailab.co.tz/indabax/index.html">Deep Learning Indaba X Tanzania</a>. June 2021. <br>
+					<a target="_blank" href="https://www.robots.ox.ac.uk/~aarnab/talks/transformers_talk.pdf">[Slides]</a>					
+				</p>
+
+				<p>
+					<div class="title">Structured Models for Video Understanding</div>
+					Invited talk at Ulsan National Institute of Science and Technology (UNIST), South Korea. June 2021 <br>
+					<a target="_blank" href="https://www.robots.ox.ac.uk/~aarnab/talks/structured_models_for_video_understanding_unist.pdf">[Slides]</a>
+				</p>
+
+
+				<p>
+					<div class="title">Video Understanding in the Wild with Incomplete Supervision</div>
+					Invited talk at <a target="_blank" href="http://www.sdspeople.fudan.edu.cn/fuyanwei/VI_seminar/fudan-vi-seminar.github.io/index.html">1st Visual Intelligence Seminar</a> at Fudan University, China. January 2021 <br>
+					<a target="_blank" href="https://www.robots.ox.ac.uk/~aarnab/talks/Fudan_VI_Seminar_Anurag_Arnab.pdf">[Slides]</a>
+
+				</p>
+
+				<p>
+					<div class="title">Scene Understanding with Deep Structured Models</div>
+					Invited talk at University of Warsaw. January 2020 <br>
+					<a target="_blank" href="https://www.robots.ox.ac.uk/~aarnab/talks/Scene_Understanding_Deep_Structured_Models.pptx"> [Slides] </a>
+				</p>
+
+				<p>
+					<div class="title">Learning from Weak Supervision: Panoptic Segmentation and ​3D Human Pose Estimation</div>
+					Invited talk at <a target="_blank" href="https://lidchallenge.github.io/LID2019/">Learning from Imperfect
+						Data Workshop</a> at CVPR. June 2019
+					<br>
+					<a target="_blank" href="https://www.robots.ox.ac.uk/~aarnab/talks/cvpr2019_workshop.pptx"> [Slides] </a>
+				</p>
+
+				<p>
+					<div class="title">Pixelwise Instance Segmentation with a Dynamically Instantiated Network</div>
+					ETH Zurich, August 2017 <br>
+					<a target="_blank" href="https://www.robots.ox.ac.uk/~aarnab/projects/cvpr_2017/Instances_CVPR_slides.pptx"> [Slides] </a>
+				</p>
+
+				<p>
+					<div class="title">Holistic Scene Understanding with Deep Learning and Dense Random Fields</div>
+					Invited tutorial at <a
+						href="http://nebula.wsimg.com/eb71168057c29173ecf0669ab3b3b5e1?AccessKeyId=91DE7F6766E69DB3BB56&disposition=0">Deep
+						Learning Meets Model Optimization and Statistical Inference </a> at <i> European
+						Conference on Computer
+						Vision (ECCV)</i>, October 2016. <br>
+					<a target="_blank" href="https://www.robots.ox.ac.uk/~aarnab/talks/eccv2016_tutorial.pdf"> [Slides] </a>
+				</p>
+
+				<p>
+					<div class="title">Joint Object-Material Category Segmentation from Audio-Visual Cues</div>
+					Vision and Learning Seminar (Online), February 2016 <br>
+					<a target="_blank" href="http://valse.mmcheng.net/ftp/20160224/20160224.mp4?_=1"> [Video] </a>
+				</p>
+
+				<p>
+					<div class="title">Joint Object-Material Category Segmentation from Audio-Visual Cues</div>
+					<a
+						href="http://www.surrey.ac.uk/cvssp/news/events/cvssp_and_ee/joint_objectmaterial_category_segmentation_from_audiovisual_cue_first_talk_semanticpaint_interactive_segmentation_and_learning_of_3d_worlds_second_talk.htm">
+						CVSSP Seminar, University of Surrey</a>, November 2015 <br>
+					<a target="_blank" href="https://www.robots.ox.ac.uk/~aarnab/projects/bmvc_2015/Audiovisual_Semantic_Segmentation.pptx"> [Slides] </a>
+				</p>
+			</div>
+			<hr>
+			<!--
+					<div class="row">
+						<div class="col-md-12">
+							Footer goes here
+						</div>
+					</div>
+					-->
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+</body>
+
+</html>

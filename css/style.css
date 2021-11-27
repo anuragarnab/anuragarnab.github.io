@@ -1,0 +1,188 @@
+#header {
+  width: 100%;
+  top: 50px;
+  height: 300px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.cover-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('../images/oxford.JPG');
+  background-position: center;
+  background-size: cover;
+}
+
+.bibtex {
+ margin      : 10px;
+ padding     : 5px;
+ border      : 1px solid gray; 
+ font-family : courier;
+ text-align  : left;
+}
+
+.bg1 {
+  background-image: url('../images/oxford.JPG');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+}
+
+.bg2 {
+  background-color: #299DB6;
+}
+#headerblob {
+  position: absolute;
+  left: 20%;
+  top: 80px;
+  width: 80%;
+}
+#headertext {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-left: 220px;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3); /* horizontal-offset vertical-offset blur color; */
+}
+.imgme {
+  border: 3px solid white;
+  /* box-shadow: #AAA 0px 0px 4px 0px; */
+  float: left;
+  width: 200px;
+}
+
+#htname {
+  font-size: 46px;
+  font-weight: 400;
+/*  text-shadow: 20px 4px 0px rgba(0,0,0,0.3); /* horizontal-offset vertical-offset blur color; */
+  text-shadow: 2px 4px 3px rgba(0,0,0,1);
+  font-family: "Myriad Pro","Helvetica","Arial",sans-serif;
+}
+#htdesc {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: -6px;
+  text-shadow: 0px 0px 3px rgb(0,0,0); /* horizontal-offset vertical-offset blur color; */
+
+}
+#htem {
+  font-size: 14px;
+  font-weight: 300;
+  text-shadow: 0px 0px 3px rgb(0,0,0); /* horizontal-offset vertical-offset blur color; */
+}
+
+#hticons {
+  font-size: 36px;
+  font-weight: 300;
+  text-shadow: 0px 0px 3px rgb(0,0,0); /* horizontal-offset vertical-offset blur color; */
+ /* text-shadow: 0px 0px 1px rgb(0,0,0); /* horizontal-offset vertical-offset blur color; */
+  color: aliceblue;
+}
+
+.hovericon:hover {
+   color: slategrey;
+   /* slategrey*/
+}
+
+
+/* Navbar stuff */
+.navbar {
+	background-color: #002147
+}
+
+.navbar-brand {
+	padding: 2px;
+}
+.navbar .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+  color: #a1c0d4;
+}
+.navbar .navbar-text {
+  color: #ecf0f1;
+}
+.navbar .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+  color: #a1c0d4;
+}
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+  color: #a1c0d4;
+  background-color: #002147;
+}
+.navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus {
+  color: #a1c0d4;
+  background-color: #3277ae;
+}
+.navbar .navbar-toggle {
+  border-color: #3277ae;
+}
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+  background-color: #3277ae;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar .navbar-link {
+  color: #ecf0f1;
+}
+.navbar .navbar-link:hover {
+  color: #a1c0d4;
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-nav .open .dropdown-menu > li > a:hover, .navbar .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #a1c0d4;
+  }
+  .navbar .navbar-nav .open .dropdown-menu > .active > a, .navbar .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #a1c0d4;
+    background-color: #3277ae;
+  }
+}
+
+/* Don't do vertical alignment for small devices, as it creates 
+problems with the cascading of table cells */
+@media (min-width: 767px) {  
+  .vertical-align {
+      display: flex;
+      align-items: center;
+  }
+}
+
+.top-buffer { margin-top:20px; }
+
+div.bibtex {
+ /*display	 : none;*/
+ margin      : 10px;
+ padding     : 5px;
+ border      : 1px solid gray; 
+ font-family : courier;
+ text-align  : left;
+}
+
+.title {
+  /*font-weight: bold;*/
+  font-size: medium;
+}
+
+.authors {
+}
+
+.pubvenue {
+}
+
+.links {
+}

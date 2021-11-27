@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Weakly- and Semi-Supervised Panoptic Segmentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Favicon -->
+ 	<link rel="icon" href="icons/oxford.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="icons/oxford.ico" type="image/x-icon"/>
+
+	<!-- Google analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-83988063-1', 'auto');
+		// ga('send', 'pageview');
+
+    ga('send', 'pageview', {
+      'page': '/weak_panoptic.html',
+      'hitCallback': function() {
+      window.location.replace = "https://qizhuli.github.io/publication/weakly-supervised-panoptic-segmentation/";
+      }
+    });
+	</script>
+
+  <!-- Mathjax -->
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <!-- Another redirect, since the previous one doesnt seem to work on all browsers -->
+  <meta http-equiv="refresh" content="0; URL=https://qizhuli.github.io/publication/weakly-supervised-panoptic-segmentation/">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+			<img alt="Oxford" src="images/oxford_logo.png" class="img-responsive" style="height: 46px">
+          </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#research">Research</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="assets/CV_Anurag_Arnab.pdf" target="_blank" onclick="ga('send', 'event', 'File', 'download', this.href);">CV</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://www.robots.ox.ac.uk/~tvg/">Torr Vision Group</a></li>
+          </ul>            
+            <!-- <img class="pull-right" src="./stuff/oxford_logo.png"> -->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>  	
+
+    <div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<!-- <div class="jumbotron"> -->
+			<div class="page-header text-center">
+				<br><br>
+				<h1>
+					Weakly- and Semi-Supervised Panoptic Segmentation <br>
+            <small> 
+                <a href="http://www.robots.ox.ac.uk/~liqizhu/">Qizhu Li*</a>,
+                <a href="http://www.robots.ox.ac.uk/~aarnab/">Anurag Arnab*</a> and 
+              <a href="https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en">Philip H.S. Torr</a> 
+            </small>
+				</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-9" style="border-right: 1px solid #EEE;">
+					<p>
+
+            <div class="row text-center">
+                    <img class="img-responsive" src="projects/eccv_2018/diagram.png" alt="Weakly supervised panoptic segmentation">
+                    
+            </div>               
+
+            <br>
+            <strong>Abstract: </strong>
+            
+            We present a weakly supervised model that jointly performs both semantic- and instance-segmentation -- a particularly relevant problem given the substantial cost of obtaining pixel-perfect annotation for these tasks. In contrast to many popular instance segmentation approaches based on object detectors, our method does not predict any overlapping instances. Moreover, we are able to segment both "thing" and "stuff" classes, and thus explain all the pixels in the image. "Thing" classes are weakly-supervised with bounding boxes, and "stuff" with image-level tags. We obtain state-of-the-art results on Pascal VOC, for both full and weak supervision (which achieves about 95% of fully-supervised performance). Furthermore, we present the first weakly-supervised results on Cityscapes for both semantic- and instance-segmentation. Finally, we use our weakly supervised framework to analyse the relationship between annotation quality and predictive performance, which is of interest to dataset creators.
+            <hr>
+        
+				</div>
+				<div class="col-md-3">
+					 
+					 <a href="projects/eccv_2018/Weakly_Sup_Panoptic_Seg_ECCV_2018.pdf" type="button" class="btn btn-block btn-primary" target="_blank">
+					 	Download Paper <i class="fa fa-file-pdf-o"></i>
+           </a>
+           </a>
+           <a href="#" type="button" class="btn btn-block btn-primary">
+            Code (coming soon) <i class="fa fa-github fa-lg"></i>
+          </a>
+
+				</div>
+			</div>
+    </div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

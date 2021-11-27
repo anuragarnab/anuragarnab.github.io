@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Anurag Arnab</title>
+
+<!--	<link href="css/bootstrap.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/academicons.css">
+
+	<!-- Favicon -->
+	<link rel="icon" href="icons/oxford.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="icons/oxford.ico" type="image/x-icon" />
+
+	<!-- Google analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-83988063-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+				<a class="navbar-brand" href="#">
+					<img alt="Oxford" src="images/oxford_logo.png" class="img-responsive" style="height: 46px">
+				</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html#research">Research</a></li>
+					<li><a href="publications.html">Publications</a></li>
+					<li><a href="assets/CV_Anurag_Arnab.pdf" target="_blank" onclick="ga('send', 'event', 'File', 'download', this.href);">CV</a></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="http://www.robots.ox.ac.uk/~tvg/">Torr Vision Group</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="header" class="cover-image">
+		<div id="headerblob">
+			<img src="images/me.jpg" class="img-circle imgme">
+			<div id="headertext">
+				<div id="htname">Anurag Arnab</div>
+				<div id="htdesc">DPhil Student, University of Oxford</div>
+				<div id="htem">aarnab _at_ robots.ox.ac.uk</div>
+				<div id="hticons">
+					<a alt="Google Scholar" href="https://scholar.google.co.uk/citations?hl=en&authorid=2866407064294281542&user=l2FS2_IAAAAJ"
+						style="color: inherit;"><i class="ai ai-google-scholar-square hovericon"></i></a>
+					<a alt="Github" href="https://github.com/hmph" style="color: inherit;"><i class="fa fa-github-square hovericon"></i></a>
+					<a alt="LinkedIn" href="https://www.linkedin.com/in/anuragarnab" style="color: inherit;"><i class="fa fa-linkedin-square hovericon"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" style="padding-top: 390px">
+		<div class="row row-eq-height">
+			<div class="col-12 ">
+				<p>
+					<strong>Bio: </strong>I am a Computer Vision DPhil (PhD) student in the <a href="http://www.robots.ox.ac.uk/~tvg/">Torr Vision Group</a>					
+					at Oxford University, and a member of <a href="http://www.linacre.ox.ac.uk/">Linacre College</a>. My research interests
+					currently lie in the combination of Deep Learning and Probabilistic Graphical Models. I completed my undergraduate degree
+					from the University of Cape Town in South Africa.
+				</p>
+
+				<hr>
+				<a name="research"></a>
+
+				<h1> Research </h1>
+			</div>
+		</div>
+
+		<div class="row top-buffer vertical-align">
+			<div class="col-xs-12 col-md-4">
+				<a href="weak_panoptic.html"><img alt="Weakly- and Semi-Supervised Panoptic Segmentation" src="projects/eccv_2018/diagram.png" class="img-responsive center-block" style="width:100%"/></a>
+			</div><!--
+			--><div class="col-xs-12 col-md-8">
+				<h3> Weakly- and Semi-Supervised Panoptic Segmentation </h3>
+				<p>
+
+				We present a weakly supervised model that jointly performs both semantic- and instance-segmentation -- a particularly relevant problem given the substantial cost of obtaining pixel-perfect annotation for these tasks. In contrast to many popular instance segmentation approaches based on object detectors (like Mask R-CNN), our method does not predict any overlapping instances. Moreover, we are able to segment both "thing" and "stuff" classes, and thus explain all the pixels in the image. "Thing" classes are weakly-supervised with bounding boxes, and "stuff" with image-level tags. 
+
+				<br>
+				<a href="weak_panoptic.html">Project Page</a>
+				</p>
+			</div>
+		</div>	
+
+
+		<div class="row top-buffer vertical-align">
+			<div class="col-xs-12 col-md-4">
+				<a href="adversarial_robustness.html"><img alt="On the Robustness of Semantic Segmentation Models to Adversarial Attacks" src="projects/cvpr_2018/frankfurt_000000_000294_dilated_split_blend.png" class="img-responsive center-block" style="width:100%"/></a>
+			</div><!--
+			--><div class="col-xs-12 col-md-8">
+				<h3> On the Robustness of Semantic Segmentation Models to Adversarial Attacks </h3>
+				<p>
+					Adversarial examples are arguably the greatest challenge affecting deep neural networks today, particularly if they are to be used in safety-critical systems such as autonomous vehicles.
+					We present, to our knowledge, the first rigorous evaluation of the robustness of semantic segmentation models to adversarial attacks.
+					We analyse the effect of different network architectures, model capacity and multiscale processing, and show	that many observations made on the task of classification do not always transfer to segmentation. 
+					Furthermore, we show how mean-field inference in deep structured models and multiscale processing naturally implement recently proposed adversarial defenses.
+					<br>
+					<a href="adversarial_robustness.html">Project Page</a>
+				</p>
+			</div>
+		</div>	
+
+	
+		<div class="row top-buffer vertical-align">
+			<div class="col-xs-12 col-md-4">
+				<a href="instances_dynamic_network.html"><img alt="Pixelwise Instance Segmentation with a Dynamically Instantiated Network" src="projects/cvpr_2017/thumbnail_cityscapes.png" class="img-responsive center-block" style="width:100%"
+					/></a>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<h3> Pixelwise Instance Segmentation with a Dynamically Instantiated Network </h3>
+				<p>
+					We propose an Instance Segmentation algorithm that produces a segmentation map where each pixel is assigned both an object class and instance identity label. 
+					Our dynamically instantiated network outputs a variable number of instances per image, and is trained end-to-end. 
+					In contrast to most competing approaches, our method requires no post-processing and reasons about all instances in the image globally (as opposed to independent proposals), and it is thus impossible for one pixel to belong to multiple instances.
+
+					<!-- This is performed by extending our previous work where we incorporated a Higher Order Conditional Random Field as a differentiable module of a neural network. -->
+					<br>
+					<a href="instances_dynamic_network.html">Project Page</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="row top-buffer vertical-align">
+			<div class="col-xs-12 col-md-4">
+				<a href="hihp.html"><img alt="Holistic, Instance-level Human Parsing" src="projects/bmvc_2017/thumbnail_hihp.png" class="img-responsive center-block" style="width:100%"
+					/></a>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<h3> Holistic, Instance-level Human Parsing </h3>
+				<p>
+					We segment the parts of objects at an instance-level, such that each pixel in the image is assigned a part label, as well as the identity of the object it belongs to.
+					Our end-to-end trained network can thus produce state-of-the-art instance-level part segmentation, instance-level object segmentation and category-level segmentations, all in a single forward pass through the network. 
+
+					<!-- This is performed by extending our previous work where we incorporated a Higher Order Conditional Random Field as a differentiable module of a neural network. -->
+					<br>
+					<a href="hihp.html">Project Page</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="row top-buffer vertical-align">
+			<div class="col-xs-12 col-md-4">
+				<a href="instances.html"><img alt="Bottom-up Instance Segmentation" src="images/bmvc_2016_thumbnail.png" class="img-responsive center-block" style="width:100%"
+					/></a>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<h3> Bottom-up Instance Segmentation </h3>
+				<p>
+					Traditional Scene Understanding problems such as Object Detection and Semantic Segmentation have made breakthroughs in recent
+					years due to the adoption of deep learning. However, the former task is not able to localise objects at a pixel level,
+					and the latter task has no notion of different instances of objects of the same class. We focus on the task of Instance
+					Segmentation which recognises and localises objects down to a pixel level.
+					<!-- This is performed by extending our previous work where we incorporated a Higher Order Conditional Random Field as a differentiable module of a neural network. -->
+					<br>
+					<a href="instances.html">Project Page</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="row top-buffer vertical-align">
+			<div class="col-xs-12 col-md-4">
+				<a href="ho_crf_cnn.html"><img alt="Higher Order Conditional Random Fields in Deep Neural Networks" src="images/eccv_2016_thumbnail.png" class="img-responsive center-block"
+						style="width: 100%" /></a>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<h3> Higher Order Conditional Random Fields in Deep Neural Networks </h3>
+				<p>
+					Most semantic segmentation approaches now use Convolutional Neural Networks (CNN) coupled with a Conditional Random Field
+					(CRF) to produce a structured output that is consistent with visual features of the image. We perform the CRF inference
+					directly within the deep neural network to facilitate joint learning of the CRF and pixel-wise CNN classifier. Moreover,
+					we incorporate two different higher order potentials, namely object detection based potentials and superpixel based
+					potentials into our end-to-end trainable CRF model.
+					<br>
+					<a href="ho_crf_cnn.html">Project Page</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="row top-buffer vertical-align">
+			<div class="col-xs-12 col-md-4">
+				<a href="bmvc_2015.html"><img alt="Audiovisual Semantic Segmentation" src="images/bmvc_2015_thumbnail.png" class="img-responsive center-block"
+					style="width: 100%"/>
+				</a>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<h3> Audiovisual Semantic Segmentation </h3>
+				<p>
+					In this project, we use sound as an additional sensory modality to perform semantic segmentation. We obtain auditory information
+					by tapping objects in the scene, and find that the sound emitted is characteristic of the material that the object is
+					made of. Using this information, we are able to improve our discrimination of object classes which appear visually similar,
+					but are made of different materials. The sound information that we collected (and release publicly), is only available
+					in sparse locations in the scene. Our CRF model is able to effectively augment dense visual cues with sparse auditory
+					information.
+					<br>
+					<a href="bmvc_2015.html">Project Page</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="row top-buffer vertical-align">
+			<div class="col-xs-12 col-md-4">
+				<a href="http://www.semantic-paint.com/"><img alt="Semantic Paint" src="images/semantic_paint_thumbnail.png" class="img-responsive center-block" style="width: 100%"></a>
+			</div>
+			<div class="col-xs-12 col-md-8">
+				<h3> Semantic Paint </h3>
+				<p>
+					Semantic Paint is a real-time interactive system for reconstruction and object-class segmentation of 3D worlds. A user can
+					walk into a room wearing a consumer depth camera and virtual reality headset, and reconstruct both the 3D scene and
+					interactively segment it on-the-fly into object classes such as "chair" and "table" using an online random forest. The
+					user can interact physically with the environment, touching or pointing at objects and using voice commands to assign
+					labels.
+					<br>
+					<a href="http://www.semantic-paint.com/">Project Page</a>
+				</p>
+			</div>
+		</div>
+
+		<hr>
+		<!--
+		<div class="row row-eq-height">
+			<div class="col-lg-12">
+				Footer goes here
+			</div>
+		</div> -->
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>
